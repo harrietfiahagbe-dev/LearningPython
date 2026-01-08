@@ -48,7 +48,7 @@ name_info = input("What is your name?")
 age_info = input("What is your age?")
 print(name_info)
 print(age_info)
-'''
+
 
 #Casting
 #int to float
@@ -78,3 +78,16 @@ print("Integer", new_intone)# so we can change from string to float, then from f
 name_str = "Yayra"
 list_name = list(name_str)
 print("List in Names", list_name)
+'''
+#DAY 2
+print('True == True: ', True == True)
+print('True == False: ', True == False)
+print('False == False:', False == False)
+# is, is not, in, not in
+#print("2 is 2:", 2 is 2)
+print(f"2 is 2: {2 is 2}")
+print("3 is 2", 3 is 2)
+print("A in Aba", "A" in "Aba")
+print("B in Aba", "B" in "Aba")
+print("coding in coding is nice", "coding" not in "coding is nice")
+print("coding in coding is nice", "coding" in "coding is nice")
